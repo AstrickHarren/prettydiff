@@ -10,6 +10,7 @@ macro_rules! cfg_prettytable {( $($item:item)* ) => (
 extern crate prettytable;
 
 pub mod basic;
+mod color;
 cfg_prettytable! {
     pub mod format_table;
 }
